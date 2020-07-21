@@ -1,0 +1,14 @@
+/*-----------------------*\
+  CORPO DA PÁGINA
+\*-----------------------*/
+
+html {
+	font-size: 62.5%; /*pra colocar padrão 10px (base 16px)*/
+}
+
+body {
+	margin: 0;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4rem; /* 14px */
+}

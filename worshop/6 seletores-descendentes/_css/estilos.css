@@ -1,0 +1,22 @@
+/*
+.missao strong{
+	color: red;
+}
+
+.introducao strong{
+	color: blue;
+}
+
+p strong {
+	font-size: 12pt;
+}
+
+article strong {
+	color: blue;
+}
+
+*/
+
+article .missao strong {
+	color: green;
+}

@@ -1,0 +1,38 @@
+/* 
+Quando fonte:
+EM = aumenta de acordo com o pai
+REM = aumenta de acordo com a fonte do documento (que é o pai)
+
+Quando outro elemento:
+EM = aumenta de acordo com o font-size do elemento
+REM = aumenta de acordo com a fonte do documento
+
+*/
+
+.texto {
+	font-size: 2em; /* 32px (16px nav * 2) */
+}
+
+.texto h1 {
+	font-size: 3em; /* 48px */
+}
+
+.texto p {
+	border: 0.5em solid black; /* 32px pq pega do p */
+	padding: 0.5em;
+	margin-right: 3em;
+
+	font-size: 2em; /* 64px */
+}
+
+.texto p span {
+	font-size: 0.5em; /* 32px */
+}
+
+.comentarios {
+	font-size: 2rem; /* 32px */
+}
+
+.comentarios p {
+	font-size: 2rem; /* 32px */
+}

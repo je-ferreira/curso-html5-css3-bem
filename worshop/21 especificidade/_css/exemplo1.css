@@ -1,0 +1,37 @@
+body {
+	font-size: 32px;
+}
+
+/* 100 */
+#logo {
+	color: green;
+}
+
+/* 010 */
+.amarelo {
+	color: yellow;
+}
+
+/* 001 */
+h1 {
+	color: blue;
+}
+
+/* se eu quiser forçar algum
+como prioridade (evitar) */
+
+h1 {
+	color: blue !important;
+}
+
+
+/*2 regras com seletores iguais,
+vence o declarado por último*/
+
+/* Cálculo de especificidade:
+
+Seletor: ID 	Classe 	Tag
+Quantde:  1			1				1
+
+*/
+

@@ -1,0 +1,75 @@
+/*-----------------------*\
+  ESPAÇO DO CABEÇALHO
+\*-----------------------*/
+
+.layout-cabecalho {
+	height: 60px;
+	line-height: 60px; /*ajustar centralização*/
+	border-bottom: 1px solid #CCC;
+
+	background-color: #FFF;
+}
+
+.layout-cabecalho--home {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1; /*pra ficar por cima*/
+}
+
+/*-----------------------*\
+  ESPAÇO DOS PLANOS
+\*-----------------------*/
+
+.layout-planos {
+	padding: 80px 0;
+}
+
+@media(max-width: 749px) { /*aplicar só em telas peq*/
+	.layout-planos .row > div:not(.ultima-coluna) {
+		margin-bottom: 40px;
+	}
+}
+
+/*--------------------------*\
+  ESPAÇO DA CHAMADA PRINCIPAL
+\*---------------------------*/
+
+.layout-chamada {
+	padding: 80px 0;
+	margin-top: 60px; /*pra espaçar do cabecalho*/
+
+	background-color: #7AB55C;
+
+}
+
+/*--------------------------*\
+  ESPAÇO DO DEPOIMENTO
+\*---------------------------*/
+
+.layout-depoimento {
+	padding: 80px 0;
+	background-color: #E7E7E7;
+}
+
+/*--------------------------*\
+	RODAPÉ
+\*---------------------------*/
+
+.layout-rodape {
+	padding: 40px 0;
+
+	background-color: #484848;
+
+	color: #FFF;
+	text-align: center;
+}
+
+/*--------------------------*\
+	PÁGINA ASSINATURA
+\*---------------------------*/
+
+.layout-assinatura {
+	padding: 40px 0;
+}

@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box; /*vai manter o tamanho da caixa com padding e bordas inclusos*/
+}
+
+body {
+	font-size: 32px;
+	margin: 0; /*tirar margem padrão do navegador*/
+}
+
+.frase1, .frase2, .referencia{
+	width: 500px;
+
+	text-align: justify;
+	background-color: yellow;
+}
+
+p {
+	margin: 10px;
+}
+
+.referencia {
+	background-color: blue;
+	height: 20px;
+}
+
+.frase1 {
+	/*box-sizing: content-box; /*valor padrao*/
+	border: 3px solid red;
+	padding: 20px;
+}
+
+.frase2 {
+/*	box-sizing: border-box; /*vai manter o tamanho da caixa com padding e bordas inclusos*/
+	padding: 20px;
+	border: 20px solid red;
+}

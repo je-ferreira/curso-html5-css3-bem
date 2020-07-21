@@ -1,0 +1,18 @@
+/*Seletor por tipo*/
+h1{
+	font-family: Verdana;
+}
+
+/*Seletor por ID - #ID*/
+#titulo { 
+	color: blue;
+}
+
+/*Seletor por classe - .CLASSE*/
+.destaque { 
+	color: red;
+}
+
+p.missao {
+	font-family: Arial;
+}

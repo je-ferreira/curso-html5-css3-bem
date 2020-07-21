@@ -1,0 +1,21 @@
+/* 
+
+### filhos diretos ###
+
+article > .importante {
+	color: red;	
+}
+
+### todos os descendentes ###
+
+article .importante {
+	color: red;
+}
+
+*/
+
+article > .importante > strong {
+	color: red;
+}
+
+

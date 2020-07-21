@@ -1,0 +1,26 @@
+.caixa1 {
+	background-color: blue;
+	color: white;
+
+}
+
+.caixa2 {
+	background-color: rgb(255, 0, 0);
+	color: rgb(0, 0, 0);
+}
+
+.caixa3 {
+	background-color: rgb(255, 200, 0);
+	color: rgb(255, 255, 255);
+}
+
+.caixa4{
+	background-color: #FF00C8; /*2 primeiros: red / 2 meio: verde / 2 ultimos: blue*/
+	color: #DDFF00;
+}
+
+.caixa5 {
+	background-color: #DF0;
+	color: #000;
+}
+

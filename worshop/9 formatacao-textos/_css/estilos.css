@@ -1,0 +1,18 @@
+.nome {
+	color: #F00;
+	font-size: 24px;
+	font-family: "Trebuchet MS", sans-serif; /*caso não ache a fonte apontada, pega outra qqer com serif*/
+	font-style: italic; /*estilo*/
+	font-weight: bold; /*peso*/
+
+	/* atalho pra fazer tudo numa linha
+	font: italic bold 24px "Trebuchet MS", sans-serif;
+	*/
+
+	text-decoration: underline; /*decoracao*/
+	text-align: center;
+}
+
+.segmento {
+	font-family: Palatino, serif;
+}

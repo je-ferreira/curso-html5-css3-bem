@@ -1,0 +1,12 @@
+/*EVITAR USO DE PIXELS PARA DESIGN RESPONSIVO*/
+/*em fonts, caixas, etc*/
+
+.caixa {
+	width: 600px;
+	padding: 20px;
+	font-size: 12px;
+
+	background-color: #CCC;
+	border: 5px solid black;
+
+}
